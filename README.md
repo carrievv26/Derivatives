@@ -1,9 +1,9 @@
 # Derivatives
 ## Derivatives pricing
 
-BlackScholes.py: vanilla options pricer using Monte Carlo based on Black Scholes
+_BlackScholes.py_: vanilla options pricer using Monte Carlo based on Black Scholes
 
-RiskSensitivities.py: 
+_RiskSensitivities.py_: 
 functions to calculate first-order derivatives, such as delta, vega, and second-order derivatives, gamma.
 
 
