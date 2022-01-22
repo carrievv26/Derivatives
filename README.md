@@ -3,6 +3,10 @@
 
 BlackScholes.py: vanilla options pricer using Monte Carlo based on Black Scholes
 
+RiskSensitivities.py: 
+functions to calculate first-order derivatives, such as delta, vega, and second-order derivatives, gamma.
+
+
 *References*:
 
 - The original paper: Hagan, P., Kumar, D., Lesniewski, L, and D.E. Woodward (2002). ”Managing Smile Risk,” Wilmott Mag- azine.
