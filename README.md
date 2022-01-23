@@ -3,11 +3,13 @@
 
 __BlackScholes.py__: vanilla options pricer using Monte Carlo based on Black Scholes
 
-__RiskSensitivities.py__: 
+__BlackPricer.py__: 
+function to compute vanilla options using black lognormal
 functions to calculate first-order derivatives, such as delta, vega, and second-order derivatives, gamma.
 
 __HaganLognormalApprox.py__:
-function to compute volatility using the Hagan et al. lorgnormal 
+function to compute implied volatility using the Hagan et al. lorgnormal
+function to compute delta based on SABR implied vol
 
 *References*:
 
