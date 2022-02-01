@@ -146,3 +146,24 @@ if __name__ == '__main__':
 
     MCPrice = BSVanillaMC(1, 1, 100, 96, 0.15, 0.05, 2000, 2, True).BSMCPrice()
     print("MC price with Antithetic: ", MCPrice)
+    
+    
+
+    def localVol_forwardVol(vol1, vol2, T1, T2):
+        '''
+
+        :param vol1: implied volatility with expiry T1
+        :param vol2: implied volatility with expiry T2
+        :param T1: expiry T1 (in years)
+        :param T2: expiry T2 (in years), usually, T2 > T1
+        :return: forward IV with expiry T2-T1 in T1
+        '''
+        vol1 = vol1
+        vol2 = vol2
+        T1 = T1
+        T2 = T2
+
+        forwardVol = math.sqrt((vol2**2*T2 - vol1**2*T1) / (T2-T1))
+        return print("Forward IV for " + str(T2-T1) + "y expiry in " + str(T1) + "y time: ", forwardVol)
+
+    localVol_forwardVol(0.1, 0.15, 1, 3)
