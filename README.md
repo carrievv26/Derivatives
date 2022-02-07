@@ -15,7 +15,7 @@ function to compute implied volatility using the Hagan et al. lorgnormal
 
 function to compute delta based on SABR implied vol
 
-__AsianOption.__:
+__AsianOption.m__:
 
 function for monte carlo simulation
 
