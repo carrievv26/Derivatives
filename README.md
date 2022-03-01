@@ -27,4 +27,4 @@ function to price Asian Option with control variate based on mathematic mean and
 - A bit simpler: The SABR Model by Fabrice Douglas Rouah.
 - Course slides: MonteCarloMethods by Jun Li
 - Course slides: Volatility Pricing and Trading
-by ***Antoine Savine, Arnauld Baudouin***
+by Antoine Savine, Arnauld Baudouin
